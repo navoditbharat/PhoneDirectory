@@ -24,6 +24,8 @@ dt{
     border: 1px solid gray;
     background-color: dimgrey;
     margin: 10px 15px 10px 0px;
+    position: sticky;
+    top: 10px;
 }
 main{
     padding: 15px 0px 0px 30px;
