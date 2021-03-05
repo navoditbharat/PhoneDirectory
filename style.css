@@ -4,7 +4,7 @@ html{
 
 body{
     border: 2px solid black;
-    width: 700px;
+    width: 70vw;
     margin: 0px auto;
 }
 
@@ -22,6 +22,7 @@ h3{
 dt{
     position: sticky;
     border: 1px solid gray;
+    /* display: flex; */
     border-radius: 50px;
     background-color: dimgrey;
     margin: 10px 15px 10px 0px;
@@ -36,6 +37,7 @@ dl{
     border-radius: 50px;
     margin-left: 20px;
     margin-right: 30px;
+    /* display: flex; */
 }
 dl:hover{
     background-color: aqua;
@@ -54,4 +56,8 @@ header:hover{
     margin-left: 50px;
     margin-right: 50px;
     border: 2px solid black;
+}
+
+.staic{
+    display: flex;
 }
